@@ -1,0 +1,23 @@
+spanish:
+  # First identifier should always be the same as the language name
+  # You can add additional languages under it to use those as a fallback when the key is missing for the main language
+  # There's no limit to how many languages you can add here. English will always be appended to the list automatically by the game.
+  identifiers:
+    - spanish
+    - english
+  # What character should be used to format monetary values (ex: 1.000.000 $)
+  thousandSeparator: '.'
+  # Automatically select this language when the mod is loaded, ignoring user's steam setting.
+  activateAutomatically: false
+  # You can use variables to help translate terms that should be different wether the player is using a male or female character
+  # To use a variable, write "<variable>" on your translation. (ex: "Hola amig<o>")
+  variables:
+    o:
+      male: o
+      female: a
+    a:
+      male:
+      female: a
+    e:
+      male: e
+      female: a
